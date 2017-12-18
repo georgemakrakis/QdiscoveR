@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:QdiscoveR"
+             x:Class="QdiscoveR.MainPage">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Welcome to Xamarin Forms and QdiscoveR!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Image Source="QdiscoveR2.png"></Image>
+    </StackLayout>
+
+</ContentPage>
