@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="QdiscoveR.Scanner">
-    <ContentPage.Content>
+             x:Class="QdiscoveR.Scanner"
+             Title="Scanner">
+    <!-- Better have some ScrollViews for more responsive design. Also try some Center, CenterAndExpand and fill options-->
+    <ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
         <StackLayout>
-            <Label Text="Scanner!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Button Text="infopage"  Clicked="OnButtonClicked"/>
+            <Label Text="Scanner!"/>
+            <Button Text="Infopage"  Clicked="OnButtonClicked"/>
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
+
 </ContentPage>

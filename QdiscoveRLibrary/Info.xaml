@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="QdiscoveR.Info">
+             x:Class="QdiscoveR.Info"
+             Title="Info">
     <ContentPage.Content>
+        <!-- Better have some ScrollViews for more responsive design. Also try some Center, CenterAndExpand and fill options-->
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
             <Label Text="Name: OnomaKtiriou"
                 VerticalOptions="CenterAndExpand" 
@@ -26,6 +28,7 @@
                 HeightRequest="1"
                 WidthRequest="500"  
                 Color="#5b5d68"></BoxView>
+            <!--<ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="Center">-->
             <ListView x:Name="SimilarBuildings">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -33,6 +36,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <!--</ScrollView>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

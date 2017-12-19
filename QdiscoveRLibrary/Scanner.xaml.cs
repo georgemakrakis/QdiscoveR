@@ -9,16 +9,16 @@ using Xamarin.Forms.Xaml;
 
 namespace QdiscoveR
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Scanner : ContentPage
-	{
-		public Scanner ()
-		{
-			InitializeComponent ();
-		}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Scanner : ContentPage
+    {
+        public Scanner()
+        {
+            InitializeComponent();
+        }
         async void OnButtonClicked(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new Info(),true);
+            await Navigation.PushAsync(new Info(), true);
         }
     }
 }

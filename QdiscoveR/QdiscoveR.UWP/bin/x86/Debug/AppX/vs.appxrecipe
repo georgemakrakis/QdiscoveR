@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-19T15:44:22.132</Modified>
+      <Modified>2017-12-19T16:17:17.061</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\QdiscoveR.UWP.exe">
       <PackagePath>entrypoint\QdiscoveR.UWP.exe</PackagePath>
-      <Modified>2017-12-19T15:44:20.997</Modified>
+      <Modified>2017-12-19T16:17:16.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -518,7 +518,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll">
       <PackagePath>QdiscoveR.dll</PackagePath>
-      <Modified>2017-12-19T15:44:18.261</Modified>
+      <Modified>2017-12-19T16:14:46.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -697,7 +697,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\QdiscoveR.UWP.exe">
       <PackagePath>QdiscoveR.UWP.exe</PackagePath>
-      <Modified>2017-12-19T15:44:22.124</Modified>
+      <Modified>2017-12-19T16:17:17.055</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
