@@ -18,7 +18,7 @@ public class MenuItemHoverListenerImplementor
 	}
 
 
-	public MenuItemHoverListenerImplementor ()
+	public MenuItemHoverListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MenuItemHoverListenerImplementor.class)

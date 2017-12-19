@@ -19,7 +19,7 @@ public class CarouselPageRenderer
 	}
 
 
-	public CarouselPageRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public CarouselPageRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2) throws java.lang.Throwable
 	{
 		super (p0, p1, p2);
 		if (getClass () == CarouselPageRenderer.class)
@@ -27,7 +27,7 @@ public class CarouselPageRenderer
 	}
 
 
-	public CarouselPageRenderer (android.content.Context p0, android.util.AttributeSet p1)
+	public CarouselPageRenderer (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
 	{
 		super (p0, p1);
 		if (getClass () == CarouselPageRenderer.class)
@@ -35,7 +35,7 @@ public class CarouselPageRenderer
 	}
 
 
-	public CarouselPageRenderer (android.content.Context p0)
+	public CarouselPageRenderer (android.content.Context p0) throws java.lang.Throwable
 	{
 		super (p0);
 		if (getClass () == CarouselPageRenderer.class)

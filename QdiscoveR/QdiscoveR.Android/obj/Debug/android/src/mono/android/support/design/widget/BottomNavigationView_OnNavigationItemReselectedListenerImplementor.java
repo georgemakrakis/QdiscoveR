@@ -17,7 +17,7 @@ public class BottomNavigationView_OnNavigationItemReselectedListenerImplementor
 	}
 
 
-	public BottomNavigationView_OnNavigationItemReselectedListenerImplementor ()
+	public BottomNavigationView_OnNavigationItemReselectedListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == BottomNavigationView_OnNavigationItemReselectedListenerImplementor.class)

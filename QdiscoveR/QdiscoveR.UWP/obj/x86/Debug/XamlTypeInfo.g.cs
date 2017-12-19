@@ -256,6 +256,8 @@ namespace QdiscoveR.UWP.QdiscoveR_UWP_XamlTypeInfo
                     global::Windows.UI.Xaml.Markup.IXamlMetadataProvider provider;
                     provider = new global::Xamarin.Forms.Platform.UAP.Xamarin_Forms_Platform_UAP_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
+                    provider = new global::ZXing.Net.Mobile.ZXing_Net_Mobile_WindowsUniversal_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
                     _otherProviders = otherProviders;
                 }
                 return _otherProviders;

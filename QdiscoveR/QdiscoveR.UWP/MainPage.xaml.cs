@@ -22,6 +22,8 @@ namespace QdiscoveR.UWP
             this.InitializeComponent();
 
             LoadApplication(new QdiscoveR.App());
+
+            ZXing.Net.Mobile.Forms.WindowsUniversal.ZXingScannerViewRenderer.Init();
         }
     }
 }

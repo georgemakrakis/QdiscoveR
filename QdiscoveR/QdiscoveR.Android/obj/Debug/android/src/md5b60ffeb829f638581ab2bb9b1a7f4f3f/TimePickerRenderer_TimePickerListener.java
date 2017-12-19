@@ -17,7 +17,7 @@ public class TimePickerRenderer_TimePickerListener
 	}
 
 
-	public TimePickerRenderer_TimePickerListener ()
+	public TimePickerRenderer_TimePickerListener () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == TimePickerRenderer_TimePickerListener.class)

@@ -447,3 +447,10 @@ C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\ZXingNetMobile.dll
+C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\zxing.portable.dll
+C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\ZXing.Net.Mobile.Forms.WindowsUniversal.dll
+C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\ZXing.Net.Mobile.Forms.dll
+C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\ZXingNetMobile.pri.xml
+C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\ZXing.Net.Mobile.Forms.WindowsUniversal.pri.xml

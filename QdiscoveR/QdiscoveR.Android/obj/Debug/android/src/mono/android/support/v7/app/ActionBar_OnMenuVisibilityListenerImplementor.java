@@ -17,7 +17,7 @@ public class ActionBar_OnMenuVisibilityListenerImplementor
 	}
 
 
-	public ActionBar_OnMenuVisibilityListenerImplementor ()
+	public ActionBar_OnMenuVisibilityListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == ActionBar_OnMenuVisibilityListenerImplementor.class)

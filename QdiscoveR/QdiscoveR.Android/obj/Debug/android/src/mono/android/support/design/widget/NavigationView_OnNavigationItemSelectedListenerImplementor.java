@@ -17,7 +17,7 @@ public class NavigationView_OnNavigationItemSelectedListenerImplementor
 	}
 
 
-	public NavigationView_OnNavigationItemSelectedListenerImplementor ()
+	public NavigationView_OnNavigationItemSelectedListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == NavigationView_OnNavigationItemSelectedListenerImplementor.class)

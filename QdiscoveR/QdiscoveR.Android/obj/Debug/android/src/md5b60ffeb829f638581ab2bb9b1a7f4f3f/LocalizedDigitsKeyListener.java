@@ -18,14 +18,14 @@ public class LocalizedDigitsKeyListener
 	}
 
 
-	public LocalizedDigitsKeyListener ()
+	public LocalizedDigitsKeyListener () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == LocalizedDigitsKeyListener.class)
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.LocalizedDigitsKeyListener, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public LocalizedDigitsKeyListener (int p0, char p1)
+	public LocalizedDigitsKeyListener (int p0, char p1) throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == LocalizedDigitsKeyListener.class)

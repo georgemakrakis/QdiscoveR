@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "targets": {
     ".NETStandard,Version=v1.4": {
       "Microsoft.NETCore.Jit/1.0.2": {
@@ -898,10 +898,32 @@
           "lib/netstandard1.0/Xamarin.Forms.Core.dll": {},
           "lib/netstandard1.0/Xamarin.Forms.Platform.dll": {},
           "lib/netstandard1.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Core.dll": {},
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXingNetMobile.dll": {},
+          "lib/portable-net45+netcore45+wpa81+wp8/zxing.portable.dll": {}
         },
-        "build": {
-          "build/netstandard1.0/Xamarin.Forms.props": {},
-          "build/netstandard1.0/Xamarin.Forms.targets": {}
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Core.dll": {},
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXingNetMobile.dll": {},
+          "lib/portable-net45+netcore45+wpa81+wp8/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.270",
+          "ZXing.Net.Mobile": "2.3.2"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Forms.dll": {}
         }
       }
     }
@@ -3884,53 +3906,60 @@
         "xamarin.forms.2.5.0.121934.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "ZXing.Net.Mobile/2.3.2": {
+      "sha512": "8EQ8O2Cz+nREH5BZTSRb4eHLmQ8Y/aJvt5R2syaE3F2GTNeE1G5/HH3wjgcPimh/PTg7i1rVc1JvyV77qbWhTQ==",
+      "type": "package",
+      "path": "zxing.net.mobile/2.3.2",
+      "files": [
+        "lib/MonoAndroid403/ZXing.Net.Mobile.Core.dll",
+        "lib/MonoAndroid403/ZXingNetMobile.dll",
+        "lib/MonoAndroid403/zxing.portable.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Core.dll",
+        "lib/UAP10/ZXingNetMobile.dll",
+        "lib/UAP10/ZXingNetMobile.pri",
+        "lib/UAP10/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/UAP10/zxing.portable.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
+        "lib/Xamarin.iOS10/ZXingNetMobile.dll",
+        "lib/Xamarin.iOS10/zxing.portable.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/ZXingNetMobile.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/zxing.portable.dll",
+        "zxing.net.mobile.2.3.2.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/2.3.2": {
+      "sha512": "9kW+Trsxa1sijYeRephoQYTfXKAvdposMfv9Rvg2vhnUp9Pp3M67YzhsSOAhkBPdhZXSx6CiTpnJCBavatbm1w==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/2.3.2",
+      "files": [
+        "lib/MonoAndroid403/ZXing.Net.Mobile.Forms.Android.dll",
+        "lib/MonoAndroid403/ZXing.Net.Mobile.Forms.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.pri",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Forms.dll",
+        "zxing.net.mobile.forms.2.3.2.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.Portable.Compatibility >= 1.0.1",
       "NETStandard.Library >= 1.6.0",
-      "Xamarin.Forms >= 2.5.0.121934"
+      "Xamarin.Forms >= 2.5.0.121934",
+      "ZXing.Net.Mobile.Forms >= 2.3.2"
     ],
     ".NETStandard,Version=v1.4": []
   },
+  "tools": {},
+  "projectFileToolGroups": {},
   "packageFolders": {
-    "C:\\Users\\manol\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
-  },
-  "project": {
-    "restore": {
-      "projectUniqueName": "C:\\Users\\manol\\Documents\\QdiscoveR\\QdiscoveRLibrary\\QdiscoveR.csproj",
-      "projectName": "QdiscoveR",
-      "projectPath": "C:\\Users\\manol\\Documents\\QdiscoveR\\QdiscoveRLibrary\\QdiscoveR.csproj",
-      "projectJsonPath": "C:\\Users\\manol\\Documents\\QdiscoveR\\QdiscoveRLibrary\\project.json",
-      "packagesPath": "C:\\Users\\manol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manol\\Documents\\QdiscoveR\\QdiscoveRLibrary\\obj\\",
-      "projectStyle": "ProjectJson",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\manol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
-      ],
-      "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
-      }
-    },
-    "dependencies": {
-      "Microsoft.NETCore.Portable.Compatibility": "[1.0.1, )",
-      "NETStandard.Library": "[1.6.0, )",
-      "Xamarin.Forms": "[2.5.0.121934, )"
-    },
-    "frameworks": {
-      "netstandard1.4": {
-        "imports": [
-          "portable-net45+win8+wp8+wpa81"
-        ]
-      }
-    }
+    "C:\\Users\\georg\\.nuget\\packages\\": {}
   }
 }

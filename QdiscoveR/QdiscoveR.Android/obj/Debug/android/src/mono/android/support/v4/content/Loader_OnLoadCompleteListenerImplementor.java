@@ -17,7 +17,7 @@ public class Loader_OnLoadCompleteListenerImplementor
 	}
 
 
-	public Loader_OnLoadCompleteListenerImplementor ()
+	public Loader_OnLoadCompleteListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == Loader_OnLoadCompleteListenerImplementor.class)

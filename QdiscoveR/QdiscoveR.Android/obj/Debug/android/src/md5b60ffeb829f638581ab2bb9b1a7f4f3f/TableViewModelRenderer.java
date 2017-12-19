@@ -22,14 +22,14 @@ public class TableViewModelRenderer
 	}
 
 
-	public TableViewModelRenderer ()
+	public TableViewModelRenderer () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == TableViewModelRenderer.class)
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.TableViewModelRenderer, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public TableViewModelRenderer (android.content.Context p0)
+	public TableViewModelRenderer (android.content.Context p0) throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == TableViewModelRenderer.class)

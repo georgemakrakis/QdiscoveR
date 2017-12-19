@@ -17,7 +17,7 @@ public class GenericMenuClickListener
 	}
 
 
-	public GenericMenuClickListener ()
+	public GenericMenuClickListener () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == GenericMenuClickListener.class)

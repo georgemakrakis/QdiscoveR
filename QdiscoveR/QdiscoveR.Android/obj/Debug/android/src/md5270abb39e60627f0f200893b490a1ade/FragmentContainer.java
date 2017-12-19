@@ -22,7 +22,7 @@ public class FragmentContainer
 	}
 
 
-	public FragmentContainer ()
+	public FragmentContainer () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == FragmentContainer.class)
