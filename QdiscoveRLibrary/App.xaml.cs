@@ -13,7 +13,12 @@ namespace QdiscoveR
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage())
+            {
+                //Giving some color to the bar and to the text inside
+                BarBackgroundColor = Color.FromHex("#03A9F4"),
+                BarTextColor = Color.FromHex("#FFFFFF")
+            };
         }
 
         protected override void OnStart()
