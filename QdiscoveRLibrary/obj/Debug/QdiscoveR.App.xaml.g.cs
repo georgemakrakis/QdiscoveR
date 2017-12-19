@@ -11,8 +11,7 @@
 namespace QdiscoveR {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\georg\\Documents\\Visual Studio 2015\\Projects\\QdiscoveR\\QdiscoveRLibrary\\A" +
-        "pp.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\manol\\Documents\\QdiscoveR\\QdiscoveRLibrary\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -16,7 +16,7 @@ public class PageExtensions_EmbeddedSupportFragment
 	}
 
 
-	public PageExtensions_EmbeddedSupportFragment () throws java.lang.Throwable
+	public PageExtensions_EmbeddedSupportFragment ()
 	{
 		super ();
 		if (getClass () == PageExtensions_EmbeddedSupportFragment.class)

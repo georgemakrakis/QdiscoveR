@@ -22,7 +22,7 @@ public class ViewCellRenderer_ViewCellContainer_LongPressGestureListener
 	}
 
 
-	public ViewCellRenderer_ViewCellContainer_LongPressGestureListener () throws java.lang.Throwable
+	public ViewCellRenderer_ViewCellContainer_LongPressGestureListener ()
 	{
 		super ();
 		if (getClass () == ViewCellRenderer_ViewCellContainer_LongPressGestureListener.class)

@@ -13,5 +13,9 @@ namespace QdiscoveR
         {
             InitializeComponent();
         }
+        async void OnButtonClicked(object sender, EventArgs args)
+        {
+            await Navigation.PushModalAsync(new Scanner());
+        }
     }
 }

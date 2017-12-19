@@ -8,6 +8,7 @@
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
         <Image Source="QdiscoveR2.png"></Image>
+        <Button Text="Open Scanner"  Clicked="OnButtonClicked"/>
     </StackLayout>
 
 </ContentPage>
