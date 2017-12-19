@@ -17,7 +17,7 @@ public class ActionBar_OnNavigationListenerImplementor
 	}
 
 
-	public ActionBar_OnNavigationListenerImplementor ()
+	public ActionBar_OnNavigationListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == ActionBar_OnNavigationListenerImplementor.class)

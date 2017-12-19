@@ -17,7 +17,7 @@ public class FormsViewPager
 	}
 
 
-	public FormsViewPager (android.content.Context p0)
+	public FormsViewPager (android.content.Context p0) throws java.lang.Throwable
 	{
 		super (p0);
 		if (getClass () == FormsViewPager.class)
@@ -25,7 +25,7 @@ public class FormsViewPager
 	}
 
 
-	public FormsViewPager (android.content.Context p0, android.util.AttributeSet p1)
+	public FormsViewPager (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
 	{
 		super (p0, p1);
 		if (getClass () == FormsViewPager.class)

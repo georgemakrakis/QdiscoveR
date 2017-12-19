@@ -18,7 +18,7 @@ namespace QdiscoveR
 		}
         async void OnButtonClicked(object sender, EventArgs args)
         {
-            await Navigation.PushModalAsync(new Info());
+            await Navigation.PushAsync(new Info(),true);
         }
     }
 }

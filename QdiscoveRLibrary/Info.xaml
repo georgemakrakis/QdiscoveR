@@ -13,7 +13,7 @@
             <Label Text="Info: PliroforiesKtiriou"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <BoxView   VerticalOptions="Center"
+            <BoxView VerticalOptions="Center"
                 HorizontalOptions="Center"
                 HeightRequest="1"
                 WidthRequest="300"  
@@ -21,7 +21,7 @@
             <Label Text="Similar Buildings"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <BoxView   VerticalOptions="Center"
+            <BoxView VerticalOptions="Center"
                 HorizontalOptions="Center"
                 HeightRequest="1"
                 WidthRequest="500"  

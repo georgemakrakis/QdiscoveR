@@ -19,7 +19,7 @@ public class GenericAnimatorListener
 	}
 
 
-	public GenericAnimatorListener ()
+	public GenericAnimatorListener () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == GenericAnimatorListener.class)

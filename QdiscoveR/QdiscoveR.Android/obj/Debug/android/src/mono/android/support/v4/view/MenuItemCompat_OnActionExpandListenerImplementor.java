@@ -18,7 +18,7 @@ public class MenuItemCompat_OnActionExpandListenerImplementor
 	}
 
 
-	public MenuItemCompat_OnActionExpandListenerImplementor ()
+	public MenuItemCompat_OnActionExpandListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MenuItemCompat_OnActionExpandListenerImplementor.class)

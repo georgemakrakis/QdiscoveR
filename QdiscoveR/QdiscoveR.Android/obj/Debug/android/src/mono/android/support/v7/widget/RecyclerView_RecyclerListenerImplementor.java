@@ -17,7 +17,7 @@ public class RecyclerView_RecyclerListenerImplementor
 	}
 
 
-	public RecyclerView_RecyclerListenerImplementor ()
+	public RecyclerView_RecyclerListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == RecyclerView_RecyclerListenerImplementor.class)

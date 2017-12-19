@@ -17,7 +17,7 @@ public class SwipeRefreshLayout_OnRefreshListenerImplementor
 	}
 
 
-	public SwipeRefreshLayout_OnRefreshListenerImplementor ()
+	public SwipeRefreshLayout_OnRefreshListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == SwipeRefreshLayout_OnRefreshListenerImplementor.class)

@@ -15,7 +15,7 @@ public class AndroidActivity
 	}
 
 
-	public AndroidActivity ()
+	public AndroidActivity () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == AndroidActivity.class)

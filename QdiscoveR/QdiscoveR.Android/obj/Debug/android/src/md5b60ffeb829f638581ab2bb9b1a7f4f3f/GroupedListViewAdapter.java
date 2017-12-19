@@ -19,14 +19,14 @@ public class GroupedListViewAdapter
 	}
 
 
-	public GroupedListViewAdapter ()
+	public GroupedListViewAdapter () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == GroupedListViewAdapter.class)
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GroupedListViewAdapter, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public GroupedListViewAdapter (android.content.Context p0)
+	public GroupedListViewAdapter (android.content.Context p0) throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == GroupedListViewAdapter.class)
