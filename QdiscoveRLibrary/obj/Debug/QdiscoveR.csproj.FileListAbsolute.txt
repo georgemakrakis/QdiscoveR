@@ -16,3 +16,4 @@ C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.Info.xaml.g.cs
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.dll
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.pdb
+C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.csprojResolveAssemblyReference.cache

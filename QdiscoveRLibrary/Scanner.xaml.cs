@@ -14,8 +14,9 @@ namespace QdiscoveR
     public partial class Scanner : ContentPage
     {
         //Initialize the tools for the scanner
-        ZXingScannerView zxing;
-        ZXingDefaultOverlay overlay;
+        private ZXingScannerView zxing;
+        private ZXingDefaultOverlay overlay;
+
         public Scanner()
         {
             InitializeComponent();
@@ -26,16 +27,16 @@ namespace QdiscoveR
                 VerticalOptions = LayoutOptions.FillAndExpand
             };
             zxing.OnScanResult += (result) =>
-                Device.BeginInvokeOnMainThread(async () => {
-
+                Device.BeginInvokeOnMainThread(async () =>
+                {
                     // Stop analysis until we navigate away so we don't keep reading barcodes
                     zxing.IsAnalyzing = false;
 
                     // Show an alert
                     await DisplayAlert("Scanned Barcode", result.Text, "OK");
-                   
-                            
+
                     // Navigate away
+                    //await Navigation.PopAsync(true);
                     await Navigation.PushAsync(new Info(), true);
                 });
 
@@ -45,7 +46,8 @@ namespace QdiscoveR
                 BottomText = "Scanning will happen automatically",
                 ShowFlashButton = zxing.HasTorch,
             };
-            overlay.FlashButtonClicked += (sender, e) => {
+            overlay.FlashButtonClicked += (sender, e) =>
+            {
                 zxing.IsTorchOn = !zxing.IsTorchOn;
             };
             var grid = new Grid
@@ -58,9 +60,9 @@ namespace QdiscoveR
 
             // The root page of your application
             Content = grid;
-            
-
         }
+
+        // This will be deleted with the button in XAML
         async void OnButtonClicked(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new Info(), true);
@@ -70,14 +72,18 @@ namespace QdiscoveR
         {
             base.OnAppearing();
 
-            zxing.IsVisible = true;
             zxing.IsScanning = true;
+            zxing.IsAnalyzing = true;
+
+            var contentHolder = Content;
+            Content = null;
+            Content = contentHolder;
         }
 
         protected override void OnDisappearing()
         {
-            zxing.IsVisible = false;
             zxing.IsScanning = false;
+            zxing.IsAnalyzing = false;
 
             base.OnDisappearing();
         }

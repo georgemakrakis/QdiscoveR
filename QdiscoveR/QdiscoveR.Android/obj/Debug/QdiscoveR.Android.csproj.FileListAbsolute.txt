@@ -125,3 +125,4 @@ C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.Android\bin\Debug\QdiscoveR.Android.dll.config
