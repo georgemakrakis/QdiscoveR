@@ -14,9 +14,17 @@ namespace QdiscoveR
     public partial class Info : ContentPage
     {
         ObservableCollection<Building> SimilarBuildingsOC = new ObservableCollection<Building>();
-        public Info()
+        public Info(String BuildingID)
         {
             InitializeComponent();
+            //TODO: Connect to database
+            //send BuildingID
+            //receive Name,Lng,Lat,Info
+            Building B = new Building();//from server
+
+            BName.Text = B.Name;
+            BInfo.Text = B.Info;
+            BLocation.Text = B.Lat + " " + B.Lng;
             SimilarBuildings.ItemsSource = SimilarBuildingsOC;
             SimilarBuildingsOC.Add(new Building() { Name = "Ktirio1" });
             SimilarBuildingsOC.Add(new Building() { Name = "Ktirio2" });

@@ -33,11 +33,11 @@ namespace QdiscoveR
                     zxing.IsAnalyzing = false;
 
                     // Show an alert
-                    await DisplayAlert("Scanned Barcode", result.Text, "OK");
+                    //await DisplayAlert("Scanned Barcode", result.Text, "OK");
 
                     // Navigate away
                     //await Navigation.PopAsync(true);
-                    await Navigation.PushAsync(new Info(), true);
+                    await Navigation.PushAsync(new Info(result.Text), true);
                 });
 
             overlay = new ZXingDefaultOverlay
@@ -65,7 +65,7 @@ namespace QdiscoveR
         // This will be deleted with the button in XAML
         async void OnButtonClicked(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new Info(), true);
+            //await Navigation.PushAsync(new Info(), true);
         }
 
         protected override void OnAppearing()

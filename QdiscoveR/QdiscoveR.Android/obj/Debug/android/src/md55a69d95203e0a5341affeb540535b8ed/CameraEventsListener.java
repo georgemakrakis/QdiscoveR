@@ -19,7 +19,7 @@ public class CameraEventsListener
 	}
 
 
-	public CameraEventsListener () throws java.lang.Throwable
+	public CameraEventsListener ()
 	{
 		super ();
 		if (getClass () == CameraEventsListener.class)

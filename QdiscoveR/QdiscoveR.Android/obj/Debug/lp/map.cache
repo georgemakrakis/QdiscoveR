@@ -1,3 +1,4 @@
+FastAndroidCamera
 FormsViewGroup
 QdiscoveR
 System.ObjectModel
@@ -22,5 +23,10 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+ZXing.Net.Mobile.Core
+ZXing.Net.Mobile.Forms.Android
+ZXing.Net.Mobile.Forms
+zxing.portable
+ZXingNetMobile
 System.Resources.ResourceManager
 System.Diagnostics.Tools

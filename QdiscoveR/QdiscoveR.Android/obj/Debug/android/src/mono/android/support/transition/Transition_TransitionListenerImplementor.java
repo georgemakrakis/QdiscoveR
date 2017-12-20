@@ -21,7 +21,7 @@ public class Transition_TransitionListenerImplementor
 	}
 
 
-	public Transition_TransitionListenerImplementor () throws java.lang.Throwable
+	public Transition_TransitionListenerImplementor ()
 	{
 		super ();
 		if (getClass () == Transition_TransitionListenerImplementor.class)

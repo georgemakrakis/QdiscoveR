@@ -18,7 +18,7 @@ public class ZXingScannerFragment
 	}
 
 
-	public ZXingScannerFragment () throws java.lang.Throwable
+	public ZXingScannerFragment ()
 	{
 		super ();
 		if (getClass () == ZXingScannerFragment.class)

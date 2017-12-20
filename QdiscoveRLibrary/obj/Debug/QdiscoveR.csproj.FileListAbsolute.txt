@@ -1,13 +1,3 @@
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.pdb
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.csproj.CoreCompileInputs.cache
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.MainPage.xaml.g.cs
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.App.xaml.g.cs
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.dll
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.pdb
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.csprojResolveAssemblyReference.cache
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.Scanner.xaml.g.cs
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.Info.xaml.g.cs
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.pdb
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.MainPage.xaml.g.cs
@@ -17,3 +7,13 @@ C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.dll
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.pdb
 C:\Users\georg\Documents\Visual Studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.csprojResolveAssemblyReference.cache
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.pdb
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.csprojResolveAssemblyReference.cache
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.csproj.CoreCompileInputs.cache
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.MainPage.xaml.g.cs
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.App.xaml.g.cs
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.Scanner.xaml.g.cs
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.Info.xaml.g.cs
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.dll
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.pdb
