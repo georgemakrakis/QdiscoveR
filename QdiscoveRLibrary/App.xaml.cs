@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using Microsoft.WindowsAzure.MobileServices;
 using Xamarin.Forms;
 
 namespace QdiscoveR
 {
     public partial class App : Application
     {
+
+        public static MobileServiceClient MobileService = new MobileServiceClient("https://qdiscover.azurewebsites.net");
         public App()
         {
             InitializeComponent();
