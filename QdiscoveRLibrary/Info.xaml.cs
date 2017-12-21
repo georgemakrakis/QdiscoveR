@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using QdiscoveR.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -25,22 +22,31 @@ namespace QdiscoveR
                 var buildingItem = await buildingTable.Where(x => (x.id == buildingId)).ToListAsync();
                 var building = buildingItem.FirstOrDefault();
 
+
+                ActivityIndicator.IsRunning = false;
+                ActivityIndicator.IsVisible = false;
+
                 if (building != null)
                 {
                     BName.Text = building.Name;
                     BInfo.Text = building.Info;
-                    BLocation.Text = building.Lat + " " + building.Lng;
+                    BLocation.Text = building.Lat + ", " + building.Lng;
                 }
                 else
                 {
                     BName.Text = "Cannot find a building";
                 }
             });
-            
+
             SimilarBuildings.ItemsSource = SimilarBuildingsOC;
             SimilarBuildingsOC.Add(new Building() { Name = "Ktirio1" });
             SimilarBuildingsOC.Add(new Building() { Name = "Ktirio2" });
             SimilarBuildingsOC.Add(new Building() { Name = "Ktirio3" });
+        }
+
+        public void OnRefresh(object sender, EventArgs e)
+        {
+            //TODO: on resfresh maybe check again for buildings nearby
         }
     }
 }

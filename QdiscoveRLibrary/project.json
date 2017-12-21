@@ -1,6 +1,8 @@
 ﻿{
   "supports": {},
   "dependencies": {
+    "Microsoft.Bcl": "1.1.10",
+    "Microsoft.Bcl.Build": "1.0.21",
     "Microsoft.Azure.Mobile.Client": "3.0.3",
     "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
     "NETStandard.Library": "1.6.0",
