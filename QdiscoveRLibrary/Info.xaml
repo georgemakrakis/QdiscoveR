@@ -21,14 +21,14 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Label FontSize="48" FontAttributes="Bold" Text="OnomaKtiriou" x:Name="BName"
+            <Label FontSize="48" FontAttributes="Bold" x:Name="BName"
                    HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
                    LineBreakMode="NoWrap" Grid.ColumnSpan="2" />
             <Label Text="Location:" Grid.Row="1" Grid.Column="0"
                    VerticalOptions="CenterAndExpand" 
                    HorizontalTextAlignment="End"
                    HorizontalOptions="Center" />
-            <Label Text="TopothesiaKtiriou" Grid.Row="1" Grid.Column="1" x:Name="BLocation"
+            <Label Grid.Row="1" Grid.Column="1" x:Name="BLocation"
                    VerticalOptions="CenterAndExpand"
                    HorizontalTextAlignment="Start"
                    HorizontalOptions="Start" />
@@ -36,7 +36,7 @@
                    VerticalOptions="CenterAndExpand" 
                    HorizontalTextAlignment="End"
                    HorizontalOptions="Center" />
-            <Label Text="PliroforiesKtiriou" Grid.Row="2" Grid.Column="1" x:Name="BInfo"
+            <Label Grid.Row="2" Grid.Column="1" x:Name="BInfo"
                    VerticalOptions="CenterAndExpand" 
                    HorizontalTextAlignment="Start"
                    HorizontalOptions="Start" />

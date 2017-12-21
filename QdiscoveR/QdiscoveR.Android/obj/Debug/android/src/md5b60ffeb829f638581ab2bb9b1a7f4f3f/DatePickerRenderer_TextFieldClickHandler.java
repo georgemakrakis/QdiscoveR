@@ -17,7 +17,7 @@ public class DatePickerRenderer_TextFieldClickHandler
 	}
 
 
-	public DatePickerRenderer_TextFieldClickHandler ()
+	public DatePickerRenderer_TextFieldClickHandler () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == DatePickerRenderer_TextFieldClickHandler.class)

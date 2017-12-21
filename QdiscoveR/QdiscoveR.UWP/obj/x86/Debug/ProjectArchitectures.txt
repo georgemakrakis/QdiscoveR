@@ -1,2 +1,0 @@
-C:\Users\manol\Documents\QdiscoveR\QdiscoveR\QdiscoveR.UWP\QdiscoveR.UWP.csproj;x86
-C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\QdiscoveR.csproj;neutral

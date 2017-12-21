@@ -17,7 +17,7 @@ public class AccessibilityManagerCompat_TouchExplorationStateChangeListenerImple
 	}
 
 
-	public AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor ()
+	public AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.class)

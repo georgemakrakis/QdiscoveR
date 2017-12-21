@@ -18,7 +18,7 @@ public class VisualElementTracker_AttachTracker
 	}
 
 
-	public VisualElementTracker_AttachTracker ()
+	public VisualElementTracker_AttachTracker () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == VisualElementTracker_AttachTracker.class)

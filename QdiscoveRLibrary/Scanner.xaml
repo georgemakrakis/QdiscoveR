@@ -3,12 +3,4 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="QdiscoveR.Scanner"
              Title="Scanner">
-    <!-- Better have some ScrollViews for more responsive design. Also try some Center, CenterAndExpand and fill options-->
-    <ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
-        <StackLayout>
-            <Label Text="Scanner!"/>
-            <Button Text="Infopage"  Clicked="OnButtonClicked"/>
-        </StackLayout>
-    </ScrollView>
-
 </ContentPage>

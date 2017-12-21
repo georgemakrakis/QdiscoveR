@@ -19,7 +19,7 @@ public class SlidingPaneLayout_PanelSlideListenerImplementor
 	}
 
 
-	public SlidingPaneLayout_PanelSlideListenerImplementor ()
+	public SlidingPaneLayout_PanelSlideListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == SlidingPaneLayout_PanelSlideListenerImplementor.class)

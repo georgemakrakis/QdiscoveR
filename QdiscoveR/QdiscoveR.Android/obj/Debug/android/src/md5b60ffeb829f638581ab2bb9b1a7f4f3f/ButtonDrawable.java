@@ -21,7 +21,7 @@ public class ButtonDrawable
 	}
 
 
-	public ButtonDrawable ()
+	public ButtonDrawable () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == ButtonDrawable.class)

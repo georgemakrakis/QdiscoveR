@@ -23,7 +23,7 @@ public class ActivityLifecycleContextListener
 	}
 
 
-	public ActivityLifecycleContextListener ()
+	public ActivityLifecycleContextListener () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == ActivityLifecycleContextListener.class)

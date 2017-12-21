@@ -36,7 +36,6 @@ namespace QdiscoveR
                     //await DisplayAlert("Scanned Barcode", result.Text, "OK");
 
                     // Navigate away
-                    //await Navigation.PopAsync(true);
                     await Navigation.PushAsync(new Info(result.Text), true);
                 });
 
@@ -60,13 +59,7 @@ namespace QdiscoveR
 
             // The root page of your application
             Content = grid;
-        }
-
-        // This will be deleted with the button in XAML
-        async void OnButtonClicked(object sender, EventArgs args)
-        {
-            //await Navigation.PushAsync(new Info(), true);
-        }
+        }        
 
         protected override void OnAppearing()
         {

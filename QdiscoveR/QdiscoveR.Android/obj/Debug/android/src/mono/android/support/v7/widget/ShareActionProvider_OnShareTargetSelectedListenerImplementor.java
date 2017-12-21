@@ -17,7 +17,7 @@ public class ShareActionProvider_OnShareTargetSelectedListenerImplementor
 	}
 
 
-	public ShareActionProvider_OnShareTargetSelectedListenerImplementor ()
+	public ShareActionProvider_OnShareTargetSelectedListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == ShareActionProvider_OnShareTargetSelectedListenerImplementor.class)

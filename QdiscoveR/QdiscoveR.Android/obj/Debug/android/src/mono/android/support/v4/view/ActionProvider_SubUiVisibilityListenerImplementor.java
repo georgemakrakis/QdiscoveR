@@ -17,7 +17,7 @@ public class ActionProvider_SubUiVisibilityListenerImplementor
 	}
 
 
-	public ActionProvider_SubUiVisibilityListenerImplementor ()
+	public ActionProvider_SubUiVisibilityListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == ActionProvider_SubUiVisibilityListenerImplementor.class)

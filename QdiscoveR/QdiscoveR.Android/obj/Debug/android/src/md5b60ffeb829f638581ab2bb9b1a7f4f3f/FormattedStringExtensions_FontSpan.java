@@ -17,7 +17,7 @@ public class FormattedStringExtensions_FontSpan
 	}
 
 
-	public FormattedStringExtensions_FontSpan ()
+	public FormattedStringExtensions_FontSpan () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == FormattedStringExtensions_FontSpan.class)

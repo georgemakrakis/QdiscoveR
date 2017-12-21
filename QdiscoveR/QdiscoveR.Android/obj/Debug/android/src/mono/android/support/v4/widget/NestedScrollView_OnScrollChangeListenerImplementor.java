@@ -17,7 +17,7 @@ public class NestedScrollView_OnScrollChangeListenerImplementor
 	}
 
 
-	public NestedScrollView_OnScrollChangeListenerImplementor ()
+	public NestedScrollView_OnScrollChangeListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == NestedScrollView_OnScrollChangeListenerImplementor.class)

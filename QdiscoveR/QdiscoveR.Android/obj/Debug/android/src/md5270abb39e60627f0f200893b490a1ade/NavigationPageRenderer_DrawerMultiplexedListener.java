@@ -20,7 +20,7 @@ public class NavigationPageRenderer_DrawerMultiplexedListener
 	}
 
 
-	public NavigationPageRenderer_DrawerMultiplexedListener ()
+	public NavigationPageRenderer_DrawerMultiplexedListener () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == NavigationPageRenderer_DrawerMultiplexedListener.class)

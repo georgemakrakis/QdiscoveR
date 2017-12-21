@@ -19,7 +19,7 @@ public class NavigationMenuRenderer_MenuAdapter
 	}
 
 
-	public NavigationMenuRenderer_MenuAdapter ()
+	public NavigationMenuRenderer_MenuAdapter () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == NavigationMenuRenderer_MenuAdapter.class)

@@ -13,18 +13,30 @@ namespace QdiscoveR
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Info : ContentPage
     {
-        ObservableCollection<Building> SimilarBuildingsOC = new ObservableCollection<Building>();
-        public Info(String BuildingID)
+        Collection<Building> SimilarBuildingsOC = new ObservableCollection<Building>();
+        public Info(string buildingId)
         {
             InitializeComponent();
-            //TODO: Connect to database
-            //send BuildingID
-            //receive Name,Lng,Lat,Info
-            Building B = new Building();//from server
 
-            BName.Text = B.Name;
-            BInfo.Text = B.Info;
-            BLocation.Text = B.Lat + " " + B.Lng;
+            //Using this way beacause constructor of a page cannot be async (only in C# 7.1)
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var buildingTable = App.MobileService.GetTable<Building>();
+                var buildingItem = await buildingTable.Where(x => (x.id == buildingId)).ToListAsync();
+                var building = buildingItem.FirstOrDefault();
+
+                if (building != null)
+                {
+                    BName.Text = building.Name;
+                    BInfo.Text = building.Info;
+                    BLocation.Text = building.Lat + " " + building.Lng;
+                }
+                else
+                {
+                    BName.Text = "Cannot find a building";
+                }
+            });
+            
             SimilarBuildings.ItemsSource = SimilarBuildingsOC;
             SimilarBuildingsOC.Add(new Building() { Name = "Ktirio1" });
             SimilarBuildingsOC.Add(new Building() { Name = "Ktirio2" });
