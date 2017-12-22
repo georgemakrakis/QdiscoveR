@@ -1,16 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
+using System.Threading.Tasks;
 using QdiscoveR.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Plugin.Geolocator;
+using Plugin.Geolocator.Abstractions;
+
 
 namespace QdiscoveR
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Info : ContentPage
     {
-        Collection<Building> SimilarBuildingsOC = new ObservableCollection<Building>();
+        public static ICollection<Building> SimilarBuildingsOc = new ObservableCollection<Building>();
+        private const double Dist = 1.5;
         public Info(string buildingId)
         {
             InitializeComponent();
@@ -21,8 +28,13 @@ namespace QdiscoveR
                 var buildingTable = App.MobileService.GetTable<Building>();
                 var buildingItem = await buildingTable.Where(x => (x.id == buildingId)).ToListAsync();
                 var building = buildingItem.FirstOrDefault();
+                
+                var userPos = await GetCurrentLocation();
 
-
+                SimilarBuildingsOc = await buildingTable.Where(x => (3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(
+                    Math.Sin((userPos.Latitude - Math.Abs(x.Lat)) * Math.PI / 180 / 2), 2))))
+                    < Dist)).ToListAsync();
+                
                 ActivityIndicator.IsRunning = false;
                 ActivityIndicator.IsVisible = false;
 
@@ -38,15 +50,61 @@ namespace QdiscoveR
                 }
             });
 
-            SimilarBuildings.ItemsSource = SimilarBuildingsOC;
-            SimilarBuildingsOC.Add(new Building() { Name = "Ktirio1" });
-            SimilarBuildingsOC.Add(new Building() { Name = "Ktirio2" });
-            SimilarBuildingsOC.Add(new Building() { Name = "Ktirio3" });
+            // Popoulating the list        
+            SimilarBuildings.ItemsSource = SimilarBuildingsOc;
+           
         }
 
         public void OnRefresh(object sender, EventArgs e)
         {
             //TODO: on resfresh maybe check again for buildings nearby
         }
+
+        public async Task<Position> GetCurrentLocation()
+        {
+            Position position = null;
+            try
+            {
+                var locator = CrossGeolocator.Current;
+                locator.DesiredAccuracy = 100;
+
+                position = await locator.GetLastKnownLocationAsync();
+
+                if (position != null)
+                {
+                    //got a cahched position, so let's use it.
+                    return position;
+                }
+
+                if (!locator.IsGeolocationAvailable || !locator.IsGeolocationEnabled)
+                {
+                    //not available or enabled
+                    return null;
+                }
+
+                position = await locator.GetPositionAsync(TimeSpan.FromSeconds(20), null, true);
+
+            }
+            catch (Exception ex)
+            {
+                //Display error as we have timed out or can't get location.
+                await DisplayAlert("Location","Location serrvice timed out. Please try again","Ok");
+                return null;
+            }
+
+            if (position == null)
+            {
+                return null;
+            }
+
+            var output = string.Format("Time: {0} \nLat: {1} \nLong: {2} \nAltitude: {3} \nAltitude Accuracy: {4} \nAccuracy: {5} \nHeading: {6} \nSpeed: {7}",
+                position.Timestamp, position.Latitude, position.Longitude,
+                position.Altitude, position.AltitudeAccuracy, position.Accuracy, position.Heading, position.Speed);
+
+            Debug.WriteLine(output);
+
+            return position;
+        }
+
     }
 }

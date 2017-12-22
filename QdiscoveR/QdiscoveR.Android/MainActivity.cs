@@ -6,7 +6,10 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Support.V4.App;
 using QdiscoveR;
+using Plugin.Permissions;
+using Plugin.Permissions.Abstractions;
 
 namespace QdiscoveR.Droid
 {
@@ -31,10 +34,15 @@ namespace QdiscoveR.Droid
             
         }
 
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
-        {
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
+        {            
             ZXing.Net.Mobile.Forms.Android.PermissionsHandler.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-        }
+            PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }        
+
+
+
+
 
     }
 }

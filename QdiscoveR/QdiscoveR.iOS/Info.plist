@@ -20,6 +20,13 @@
       <string>UIInterfaceOrientationLandscapeLeft</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
+    
+    <!--Location permissions-->
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>To determine location</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>To determine location</string>
+    
     <key>MinimumOSVersion</key>
     <string>8.0</string>
     <key>CFBundleDisplayName</key>

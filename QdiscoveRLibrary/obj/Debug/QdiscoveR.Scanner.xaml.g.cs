@@ -11,7 +11,7 @@
 namespace QdiscoveR {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\georg\\Documents\\Visual Studio 2015\\Projects\\QdiscoveR\\QdiscoveRLibrary\\S" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\georg\\documents\\visual studio 2015\\Projects\\QdiscoveR\\QdiscoveRLibrary\\S" +
         "canner.xaml")]
     public partial class Scanner : global::Xamarin.Forms.ContentPage {
         

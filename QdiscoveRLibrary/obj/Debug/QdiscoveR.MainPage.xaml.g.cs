@@ -11,7 +11,7 @@
 namespace QdiscoveR {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\georg\\Documents\\Visual Studio 2015\\Projects\\QdiscoveR\\QdiscoveRLibrary\\M" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\georg\\documents\\visual studio 2015\\Projects\\QdiscoveR\\QdiscoveRLibrary\\M" +
         "ainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         

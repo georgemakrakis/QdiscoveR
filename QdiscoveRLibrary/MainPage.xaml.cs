@@ -18,10 +18,10 @@ namespace QdiscoveR
         }
         async void OnButtonClicked(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new Scanner(), true);
+            //await Navigation.PushAsync(new Scanner(), true);
 
             //This line used for debugging if device camera does not exist
-            //await Navigation.PushAsync(new Info("EFE58D97-7233-469D-95E6-EADF7C17B1B4"), true);
+            await Navigation.PushAsync(new Info("EFE58D97-7233-469D-95E6-EADF7C17B1B4"), true);
         }
     }
 }
