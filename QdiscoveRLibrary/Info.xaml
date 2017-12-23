@@ -16,7 +16,12 @@
             <Label x:Name="BInfo" HorizontalTextAlignment="Center"/>
         </StackLayout>
         <StackLayout VerticalOptions="Center" Orientation="Vertical">
-            <Label Text="Similar Buildings"
+            <BoxView VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     HeightRequest="1"
+                     WidthRequest="0"  
+                     Color="#5b5d68"></BoxView>
+            <Label Text="Nearby Buildings"
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand" />
             <BoxView VerticalOptions="Center"
