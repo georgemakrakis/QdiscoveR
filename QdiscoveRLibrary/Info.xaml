@@ -9,6 +9,7 @@
             <Label FontSize="Medium" FontAttributes="Bold" x:Name="BName"
                    HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
                    LineBreakMode="NoWrap"/>
+            <Image x:Name="BPicture" ></Image>
             <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                 <Label Text="Location:"/>
                 <Label x:Name="BLocation"/>

@@ -95,6 +95,7 @@ C:\Users\manol\Documents\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\android
 C:\Users\manol\Documents\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\manol\Documents\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\manol\Documents\QdiscoveR\QdiscoveR\QdiscoveR.Android\bin\Debug\QdiscoveR.Android.dll
+C:\Users\manol\Documents\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll
 bin\Debug\QdiscoveR.dll.mdb
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
