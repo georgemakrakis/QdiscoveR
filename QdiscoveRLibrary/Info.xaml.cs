@@ -16,6 +16,7 @@ namespace QdiscoveR
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Info : ContentPage
     {
+
         public static ICollection<Building> SimilarBuildingsOc = new ObservableCollection<Building>();
         private const double Dist = 1.5;
         public Info(string buildingId)
@@ -28,13 +29,35 @@ namespace QdiscoveR
                 var buildingTable = App.MobileService.GetTable<Building>();
                 var buildingItem = await buildingTable.Where(x => (x.id == buildingId)).ToListAsync();
                 var building = buildingItem.FirstOrDefault();
-                
+
                 var userPos = await GetCurrentLocation();
 
-                SimilarBuildingsOc = await buildingTable.Where(x => (3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(
-                    Math.Sin((userPos.Latitude - Math.Abs(x.Lat)) * Math.PI / 180 / 2), 2))))
-                    < Dist)).ToListAsync();
-                
+
+                //Exception in this query, the error tha you cant use more function than those described here https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-dotnet-how-to-use-client-library#filtering
+
+                //SimilarBuildingsOc = await buildingTable.Where(x => x.id != buildingId && (3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(
+                //    Math.Sin((userPos.Latitude - Math.Abs(x.Lat)) * Math.PI / 180 / 2), 2) + Math.Cos(userPos.Latitude * Math.PI / 180)
+                //    * Math.Cos(Math.Abs(x.Lat) * Math.PI / 180) * Math.Pow(Math.Sin((userPos.Longitude - x.Lng) * Math.PI / 180 / 2), 2))))
+                //    < Dist)).ToListAsync();
+
+                //SimilarBuildingsOc = await buildingTable.OrderBy(x => (x.Lat - userPos.Latitude) * (x.Lat - userPos.Latitude) + (x.Lng-userPos.Longitude)* (x.Lng - userPos.Longitude)).ToListAsync();                
+
+                //TODO remove these, are  for test
+                //var lat = 37.796071;
+                //var lng = 26.705048;
+
+                var temp = await buildingTable.Where(x => x.id != buildingId).ToListAsync();
+                foreach (var x in temp)
+                {
+                    if ((3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(Math.Sin((userPos.Latitude - Math.Abs(x.Lat))
+                        * Math.PI /180 / 2), 2) + Math.Cos(userPos.Latitude * Math.PI / 180)* Math.Cos(Math.Abs(x.Lat)
+                        * Math.PI / 180) * Math.Pow(Math.Sin((userPos.Longitude - x.Lng) * Math.PI / 180 / 2),2))))< Dist))
+                    {
+                        SimilarBuildingsOc.Add(x);
+                    }
+                }
+
+                //((lat -$user_lat) * (lat -$user_lat)) +((lng - $user_lng)*(lng - $user_lng))
                 ActivityIndicator.IsRunning = false;
                 ActivityIndicator.IsVisible = false;
 
@@ -52,7 +75,7 @@ namespace QdiscoveR
 
             // Popoulating the list        
             SimilarBuildings.ItemsSource = SimilarBuildingsOc;
-           
+
         }
 
         public void OnRefresh(object sender, EventArgs e)
@@ -88,7 +111,7 @@ namespace QdiscoveR
             catch (Exception ex)
             {
                 //Display error as we have timed out or can't get location.
-                await DisplayAlert("Location","Location serrvice timed out. Please try again","Ok");
+                await DisplayAlert("Location", "Location serrvice timed out. Please try again", "Ok");
                 return null;
             }
 

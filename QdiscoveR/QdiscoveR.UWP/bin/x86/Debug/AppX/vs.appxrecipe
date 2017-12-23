@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-22T17:17:06.400</Modified>
+      <Modified>2017-12-23T00:56:47.174</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\QdiscoveR.UWP.exe">
       <PackagePath>entrypoint\QdiscoveR.UWP.exe</PackagePath>
-      <Modified>2017-12-22T17:17:05.119</Modified>
+      <Modified>2017-12-23T00:56:45.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\.nuget\packages\Microsoft.Azure.Mobile.Client\3.0.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
@@ -566,7 +566,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll">
       <PackagePath>QdiscoveR.dll</PackagePath>
-      <Modified>2017-12-22T17:17:02.931</Modified>
+      <Modified>2017-12-23T00:56:42.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -745,11 +745,11 @@
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-22T16:34:29.488</Modified>
+      <Modified>2017-12-23T00:17:51.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\QdiscoveR.UWP.exe">
       <PackagePath>QdiscoveR.UWP.exe</PackagePath>
-      <Modified>2017-12-22T17:17:06.400</Modified>
+      <Modified>2017-12-23T00:56:47.168</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
