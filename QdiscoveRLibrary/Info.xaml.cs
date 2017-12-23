@@ -17,11 +17,12 @@ namespace QdiscoveR
     public partial class Info : ContentPage
     {
 
-        public static ICollection<Building> SimilarBuildingsOc = new ObservableCollection<Building>();
+        public static ICollection<Building> SimilarBuildingsOc;
         private const double Dist = 1.5;
         public Info(string buildingId)
         {
             InitializeComponent();
+            SimilarBuildingsOc = new ObservableCollection<Building>();
 
             //Using this way beacause constructor of a page cannot be async (only in C# 7.1)
             Device.BeginInvokeOnMainThread(async () =>
