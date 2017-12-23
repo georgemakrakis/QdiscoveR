@@ -43,15 +43,15 @@ namespace QdiscoveR
                 //SimilarBuildingsOc = await buildingTable.OrderBy(x => (x.Lat - userPos.Latitude) * (x.Lat - userPos.Latitude) + (x.Lng-userPos.Longitude)* (x.Lng - userPos.Longitude)).ToListAsync();                
 
                 //TODO remove these, are  for test
-                //var lat = 37.796071;
-                //var lng = 26.705048;
+                var lat = 37.796071;
+                var lng = 26.705048;
 
                 var temp = await buildingTable.Where(x => x.id != buildingId).ToListAsync();
                 foreach (var x in temp)
                 {
-                    if ((3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(Math.Sin((userPos.Latitude - Math.Abs(x.Lat))
-                        * Math.PI /180 / 2), 2) + Math.Cos(userPos.Latitude * Math.PI / 180)* Math.Cos(Math.Abs(x.Lat)
-                        * Math.PI / 180) * Math.Pow(Math.Sin((userPos.Longitude - x.Lng) * Math.PI / 180 / 2),2))))< Dist))
+                    if ((3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(Math.Sin((lat - Math.Abs(x.Lat))
+                        * Math.PI /180 / 2), 2) + Math.Cos(lat * Math.PI / 180)* Math.Cos(Math.Abs(x.Lat)
+                        * Math.PI / 180) * Math.Pow(Math.Sin((lng - x.Lng) * Math.PI / 180 / 2),2))))< Dist))
                     {
                         SimilarBuildingsOc.Add(x);
                     }
@@ -75,12 +75,20 @@ namespace QdiscoveR
 
             // Popoulating the list        
             SimilarBuildings.ItemsSource = SimilarBuildingsOc;
+            
+            //Disable selection of items on the list
+            SimilarBuildings.ItemTapped += (object sender, ItemTappedEventArgs e) => {
+                // don't do anything if we just de-selected the row
+                if (e.Item == null) return;
+                // do something with e.SelectedItem
+                ((ListView)sender).SelectedItem = null; // de-select the row
+            };
 
         }
 
         public void OnRefresh(object sender, EventArgs e)
         {
-            //TODO: on resfresh maybe check again for buildings nearby
+            //TODO: on refresh maybe check again for buildings nearby
         }
 
         public async Task<Position> GetCurrentLocation()
