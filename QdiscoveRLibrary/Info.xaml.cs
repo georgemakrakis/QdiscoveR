@@ -43,6 +43,8 @@ namespace QdiscoveR
                     var buildingItem = await _buildingTable.Where(x => (x.id == buildingId)).ToListAsync();
                     var building = buildingItem.FirstOrDefault();
 
+                    _userPos = await GetCurrentLocation();
+
                     FindSimilarBuildings(_buildingTable, buildingId, _userPos);
 
                     ActivityIndicator.IsRunning = false;

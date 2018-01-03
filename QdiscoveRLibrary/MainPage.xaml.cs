@@ -15,7 +15,16 @@ namespace QdiscoveR
             NavigationPage.SetHasNavigationBar(this, false);
 
             InitializeComponent();
+            SizeChanged += MainPageSizeChanged;
         }
+
+        void MainPageSizeChanged(object sender, EventArgs e)
+        {
+            //Changing the size of the logo in landscape mode so it could fit better
+            bool isPortrait = Height > Width;
+            Logo.HeightRequest = (isPortrait? Math.Min(Height, 312) : Math.Min(Height, 250));
+        }
+        
         async void OnButtonClicked(object sender, EventArgs args)
         {
             //await Navigation.PushAsync(new Scanner(), true);

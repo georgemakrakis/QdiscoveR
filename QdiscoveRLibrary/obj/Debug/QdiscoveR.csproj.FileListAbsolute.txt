@@ -1,6 +1,5 @@
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.pdb
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.csprojResolveAssemblyReference.cache
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.MainPage.xaml.g.cs
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.App.xaml.g.cs
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\obj\Debug\QdiscoveR.Scanner.xaml.g.cs
