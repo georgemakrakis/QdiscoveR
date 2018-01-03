@@ -17,7 +17,7 @@ public class AlertDialog_IDialogInterfaceOnCancelListenerImplementor
 	}
 
 
-	public AlertDialog_IDialogInterfaceOnCancelListenerImplementor ()
+	public AlertDialog_IDialogInterfaceOnCancelListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == AlertDialog_IDialogInterfaceOnCancelListenerImplementor.class)

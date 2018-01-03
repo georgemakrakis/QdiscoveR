@@ -20,7 +20,7 @@ public class ZxingActivity
 	}
 
 
-	public ZxingActivity ()
+	public ZxingActivity () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == ZxingActivity.class)

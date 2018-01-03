@@ -17,7 +17,7 @@ public class SearchView_OnCloseListenerImplementor
 	}
 
 
-	public SearchView_OnCloseListenerImplementor ()
+	public SearchView_OnCloseListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == SearchView_OnCloseListenerImplementor.class)

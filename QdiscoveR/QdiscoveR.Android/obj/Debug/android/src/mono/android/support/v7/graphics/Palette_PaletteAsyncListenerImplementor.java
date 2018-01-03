@@ -17,7 +17,7 @@ public class Palette_PaletteAsyncListenerImplementor
 	}
 
 
-	public Palette_PaletteAsyncListenerImplementor ()
+	public Palette_PaletteAsyncListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == Palette_PaletteAsyncListenerImplementor.class)

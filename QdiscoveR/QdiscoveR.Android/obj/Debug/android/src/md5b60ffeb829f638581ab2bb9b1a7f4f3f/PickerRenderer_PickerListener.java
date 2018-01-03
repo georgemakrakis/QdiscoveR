@@ -17,7 +17,7 @@ public class PickerRenderer_PickerListener
 	}
 
 
-	public PickerRenderer_PickerListener ()
+	public PickerRenderer_PickerListener () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == PickerRenderer_PickerListener.class)

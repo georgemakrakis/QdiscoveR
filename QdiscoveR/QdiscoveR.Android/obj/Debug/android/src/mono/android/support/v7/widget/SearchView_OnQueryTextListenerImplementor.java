@@ -18,7 +18,7 @@ public class SearchView_OnQueryTextListenerImplementor
 	}
 
 
-	public SearchView_OnQueryTextListenerImplementor ()
+	public SearchView_OnQueryTextListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == SearchView_OnQueryTextListenerImplementor.class)

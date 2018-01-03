@@ -19,14 +19,14 @@ public class WebAuthenticatorActivity_Client
 	}
 
 
-	public WebAuthenticatorActivity_Client ()
+	public WebAuthenticatorActivity_Client () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == WebAuthenticatorActivity_Client.class)
 			mono.android.TypeManager.Activate ("Xamarin.Auth._MobileServices.WebAuthenticatorActivity+Client, Microsoft.WindowsAzure.Mobile.Ext, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35", "", this, new java.lang.Object[] {  });
 	}
 
-	public WebAuthenticatorActivity_Client (md5901e742fdf284ed0df9a9602f1963168.WebAuthenticatorActivity p0)
+	public WebAuthenticatorActivity_Client (md5901e742fdf284ed0df9a9602f1963168.WebAuthenticatorActivity p0) throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == WebAuthenticatorActivity_Client.class)

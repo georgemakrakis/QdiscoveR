@@ -17,7 +17,7 @@ public class RemotePlaybackClient_OnMessageReceivedListenerImplementor
 	}
 
 
-	public RemotePlaybackClient_OnMessageReceivedListenerImplementor ()
+	public RemotePlaybackClient_OnMessageReceivedListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == RemotePlaybackClient_OnMessageReceivedListenerImplementor.class)

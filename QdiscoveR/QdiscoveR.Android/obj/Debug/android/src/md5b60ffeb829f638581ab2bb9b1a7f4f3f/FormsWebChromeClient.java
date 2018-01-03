@@ -16,7 +16,7 @@ public class FormsWebChromeClient
 	}
 
 
-	public FormsWebChromeClient ()
+	public FormsWebChromeClient () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == FormsWebChromeClient.class)

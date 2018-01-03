@@ -18,7 +18,7 @@ public class SearchView_OnSuggestionListenerImplementor
 	}
 
 
-	public SearchView_OnSuggestionListenerImplementor ()
+	public SearchView_OnSuggestionListenerImplementor () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == SearchView_OnSuggestionListenerImplementor.class)
