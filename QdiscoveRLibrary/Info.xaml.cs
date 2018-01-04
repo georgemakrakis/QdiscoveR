@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.MobileServices;
@@ -10,7 +9,6 @@ using Xamarin.Forms.Xaml;
 using Plugin.Geolocator;
 using Plugin.Geolocator.Abstractions;
 using System;
-using System.Net.Http;
 
 namespace QdiscoveR
 {
@@ -84,20 +82,7 @@ namespace QdiscoveR
                         ActivityIndicator.IsRunning = false;
                         ActivityIndicator.IsVisible = false;
                     }
-                }
-                //Exception in this query, the error tha you cant use more function than those described here https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-dotnet-how-to-use-client-library#filtering
-
-                //SimilarBuildingsOc = await buildingTable.Where(x => x.id != buildingId && (3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(
-                //    Math.Sin((userPos.Latitude - Math.Abs(x.Lat)) * Math.PI / 180 / 2), 2) + Math.Cos(userPos.Latitude * Math.PI / 180)
-                //    * Math.Cos(Math.Abs(x.Lat) * Math.PI / 180) * Math.Pow(Math.Sin((userPos.Longitude - x.Lng) * Math.PI / 180 / 2), 2))))
-                //    < Dist)).ToListAsync();
-
-                //SimilarBuildingsOc = await buildingTable.OrderBy(x => (x.Lat - userPos.Latitude) * (x.Lat - userPos.Latitude) + (x.Lng-userPos.Longitude)* (x.Lng - userPos.Longitude)).ToListAsync();                
-
-                //TODO remove these, are  for test
-                //var lat = 37.796071;
-                //var lng = 26.705048;
-
+                }                
 
             });
                        
@@ -113,6 +98,19 @@ namespace QdiscoveR
 
         private async void FindSimilarBuildings(IMobileServiceTable<Building> buildingTable, string buildingId, Position userPos)
         {
+            //Exception in this query, the error tha you cant use more function than those described here https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-dotnet-how-to-use-client-library#filtering
+
+            //SimilarBuildingsOc = await buildingTable.Where(x => x.id != buildingId && (3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(
+            //    Math.Sin((userPos.Latitude - Math.Abs(x.Lat)) * Math.PI / 180 / 2), 2) + Math.Cos(userPos.Latitude * Math.PI / 180)
+            //    * Math.Cos(Math.Abs(x.Lat) * Math.PI / 180) * Math.Pow(Math.Sin((userPos.Longitude - x.Lng) * Math.PI / 180 / 2), 2))))
+            //    < Dist)).ToListAsync();
+
+            //SimilarBuildingsOc = await buildingTable.OrderBy(x => (x.Lat - userPos.Latitude) * (x.Lat - userPos.Latitude) + (x.Lng-userPos.Longitude)* (x.Lng - userPos.Longitude)).ToListAsync();                
+
+            //TODO remove these, are  for test
+            //var lat = 37.796071;
+            //var lng = 26.705048;
+
             var temp = await buildingTable.Where(x => x.id != buildingId).ToListAsync();
             foreach (var x in temp)
             {

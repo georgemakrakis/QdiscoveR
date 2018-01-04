@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="QdiscoveR.Info"
-             Title="Info">
+             Title="Info"
+             BackgroundImage="backround.jpg">
     <StackLayout VerticalOptions="Center" Padding="5,0">
         <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
             <ActivityIndicator x:Name="ActivityIndicator" Color="#03A9F4" IsRunning="True"/>
