@@ -29,6 +29,7 @@ namespace QdiscoveR
         public Info(string buildingId)
         {
             InitializeComponent();
+            SizeChanged += PageSizeChanged;
 
             this.buildingId = buildingId;
 
@@ -85,7 +86,24 @@ namespace QdiscoveR
                 }                
 
             });
-                       
+
+            //Lack of having an PullToRefresh Action in windows made use use the toolbar to refresh the list
+            switch (Device.RuntimePlatform)
+            {
+                case Device.iOS:
+
+                    break;
+                case Device.Android:
+
+                    break;
+                case Device.UWP:
+                    ToolbarItems.Add(new ToolbarItem("Refresh", "refresh.png", () =>
+                    {
+                        FindSimilarBuildings(_buildingTable, buildingId, _userPos);
+                    }));
+                    break;
+            }
+
             //Disable selection of items on the list
             SimilarBuildings.ItemTapped += (object sender, ItemTappedEventArgs e) => {
                 // don't do anything if we just de-selected the row
@@ -119,6 +137,7 @@ namespace QdiscoveR
                     * Math.PI / 180) * Math.Pow(Math.Sin((userPos.Longitude - x.Lng) * Math.PI / 180 / 2), 2)))) < Dist))
                 {
                     SimilarBuildingsOc.Add(x);
+                    SimilarBuildings.HeightRequest = (40 * SimilarBuildingsOc.Count) + (10 * SimilarBuildingsOc.Count);
                 }
             }
         }
@@ -167,6 +186,12 @@ namespace QdiscoveR
             //Debug.WriteLine(output);
 
             return position;
+        }
+        void PageSizeChanged(object sender, EventArgs e)
+        {
+            //Changing the size of the logo in landscape mode so it could fit better
+            bool isPortrait = Height > Width;
+            BPicture.HeightRequest = (isPortrait ? Math.Min(Height, 100) : Math.Min(Height, 200));
         }
 
     }

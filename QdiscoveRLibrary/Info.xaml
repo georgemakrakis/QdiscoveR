@@ -4,40 +4,42 @@
              x:Class="QdiscoveR.Info"
              Title="Info"
              BackgroundImage="backround.jpg">
-    <StackLayout VerticalOptions="Center" Padding="5,0">
-        <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
-            <ActivityIndicator x:Name="ActivityIndicator" Color="#03A9F4" IsRunning="True"/>
-            <Label FontSize="Medium" FontAttributes="Bold" x:Name="BName"
+    <ScrollView>
+        <StackLayout VerticalOptions="Center" Padding="5,0">
+            <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
+                <ActivityIndicator x:Name="ActivityIndicator" Color="#03A9F4" IsRunning="True"/>
+                <Label FontSize="Medium" FontAttributes="Bold" x:Name="BName"
                    HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
                    LineBreakMode="NoWrap"/>
-            <Image x:Name="BPicture" ></Image>
-            <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                <Label Text="Location:"/>
-                <Label x:Name="BLocation"/>
+                <Image x:Name="BPicture"/>
+                <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Label Text="Location:"/>
+                    <Label x:Name="BLocation"/>
+                </StackLayout>
+                <Label x:Name="BInfo" HorizontalTextAlignment="Center"/>
             </StackLayout>
-            <Label x:Name="BInfo" HorizontalTextAlignment="Center"/>
-        </StackLayout>
-        <StackLayout VerticalOptions="Center" Orientation="Vertical">
-            <BoxView VerticalOptions="Center"
+            <StackLayout VerticalOptions="Center" Orientation="Vertical">
+                <BoxView VerticalOptions="Center"
                      HorizontalOptions="Center"
                      HeightRequest="1"
                      WidthRequest="0"  
                      Color="#5b5d68"></BoxView>
-            <Label Text="Nearby Buildings"
+                <Label Text="Nearby Buildings"
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand" />
-            <BoxView VerticalOptions="Center"
+                <BoxView VerticalOptions="Center"
                      HorizontalOptions="Center"
                      HeightRequest="1"
                      WidthRequest="500"  
                      Color="#5b5d68"></BoxView>
-            <ListView x:Name="SimilarBuildings" IsPullToRefreshEnabled="true" Refreshing="OnRefresh">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell Text="{Binding Name}" />
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                <ListView x:Name="SimilarBuildings" HasUnevenRows="True" IsPullToRefreshEnabled="true" Refreshing="OnRefresh">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Name}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
         </StackLayout>
-    </StackLayout>
+    </ScrollView>
 </ContentPage>

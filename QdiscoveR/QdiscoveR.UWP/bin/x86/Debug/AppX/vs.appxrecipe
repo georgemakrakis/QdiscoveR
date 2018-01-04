@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-04T00:22:32.021</Modified>
+      <Modified>2018-01-04T17:32:24.559</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\QdiscoveR.UWP.exe">
       <PackagePath>entrypoint\QdiscoveR.UWP.exe</PackagePath>
-      <Modified>2018-01-04T00:22:29.220</Modified>
+      <Modified>2018-01-04T17:32:20.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\.nuget\packages\Microsoft.Azure.Mobile.Client\3.0.3\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
@@ -566,7 +566,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll">
       <PackagePath>QdiscoveR.dll</PackagePath>
-      <Modified>2018-01-04T00:21:11.135</Modified>
+      <Modified>2018-01-04T17:32:17.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\backround.jpg">
       <PackagePath>backround.jpg</PackagePath>
@@ -734,6 +734,10 @@
       <PackagePath>QdiscoveR2.PNG</PackagePath>
       <Modified>2017-12-19T14:09:26.481</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\refresh.png">
+      <PackagePath>refresh.png</PackagePath>
+      <Modified>2018-01-04T17:30:49.675</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\QdiscoveR.UWP.xr.xml">
       <PackagePath>QdiscoveR.UWP.xr.xml</PackagePath>
       <Modified>2018-01-03T14:47:41.235</Modified>
@@ -753,11 +757,11 @@
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-04T00:22:30.758</Modified>
+      <Modified>2018-01-04T17:32:23.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\QdiscoveR.UWP.exe">
       <PackagePath>QdiscoveR.UWP.exe</PackagePath>
-      <Modified>2018-01-04T00:22:31.929</Modified>
+      <Modified>2018-01-04T17:32:24.549</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

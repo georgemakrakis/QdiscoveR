@@ -555,6 +555,9 @@
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\QdiscoveR2.PNG">
       <PackagePath>QdiscoveR2.PNG</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\refresh.png">
+      <PackagePath>refresh.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\QdiscoveR.UWP.xr.xml">
       <PackagePath>QdiscoveR.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
