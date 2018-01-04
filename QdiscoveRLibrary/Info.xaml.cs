@@ -137,9 +137,10 @@ namespace QdiscoveR
                     * Math.PI / 180) * Math.Pow(Math.Sin((userPos.Longitude - x.Lng) * Math.PI / 180 / 2), 2)))) < Dist))
                 {
                     SimilarBuildingsOc.Add(x);
-                    SimilarBuildings.HeightRequest = (40 * SimilarBuildingsOc.Count) + (10 * SimilarBuildingsOc.Count);
+                    
                 }
             }
+            SimilarBuildings.HeightRequest = (40 * SimilarBuildingsOc.Count) + (10 * SimilarBuildingsOc.Count);
         }
 
         public void OnRefresh(object sender, EventArgs e)

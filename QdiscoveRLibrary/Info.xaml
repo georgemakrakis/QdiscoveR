@@ -5,7 +5,7 @@
              Title="Info"
              BackgroundImage="backround.jpg">
     <ScrollView>
-        <StackLayout VerticalOptions="Center" Padding="5,0">
+        <StackLayout VerticalOptions="StartAndExpand" Padding="5,0">
             <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
                 <ActivityIndicator x:Name="ActivityIndicator" Color="#03A9F4" IsRunning="True"/>
                 <Label FontSize="Medium" FontAttributes="Bold" x:Name="BName"
@@ -32,7 +32,7 @@
                      HeightRequest="1"
                      WidthRequest="500"  
                      Color="#5b5d68"></BoxView>
-                <ListView x:Name="SimilarBuildings" HasUnevenRows="True" IsPullToRefreshEnabled="true" Refreshing="OnRefresh">
+                <ListView x:Name="SimilarBuildings" IsPullToRefreshEnabled="true" Refreshing="OnRefresh">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <TextCell Text="{Binding Name}" />
