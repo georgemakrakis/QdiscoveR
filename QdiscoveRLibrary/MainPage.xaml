@@ -3,16 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:QdiscoveR"
              x:Class="QdiscoveR.MainPage"
-             BackgroundImage="backround.jpg">
+             BackgroundImage="backround2.jpg">
     <!-- Better have some ScrollViews for more responsive design. Also try some Center, CenterAndExpand and fill options-->
 
     <ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
         <StackLayout x:Name="StackLayout1" Orientation="Vertical">
-            <Label Text="Welcome to Xamarin Forms and QdiscoveR!" 
+            <Label Text="Explore buildings around you" 
            VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+           HorizontalOptions="Center" >
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="RubikMedium" />
+                        <On Platform="Android" Value="RubikMedium.ttf#RubikMedium" />
+                        <On Platform="UWP, WinRT, WinPhone" Value="Assets/Fonts/RubikMedium.ttf#RubikMedium" />
+                    </OnPlatform>
+                </Label.FontFamily>
+                
+            </Label>
             <Image x:Name="Logo" Source="QdiscoveR2.png"></Image>
-            <Button Text="Open Scanner" BackgroundColor="#90DDF4" TextColor="#000000" Clicked="OnButtonClicked"/>
+            <Button Text="Scan now!" BackgroundColor="#90DDF4" TextColor="#000000" Clicked="OnButtonClicked">
+                <Button.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <On Platform="iOS" Value="RubikMedium" />
+                        <On Platform="Android" Value="RubikMedium.ttf#RubikMedium" />
+                        <On Platform="UWP, WinRT, WinPhone" Value="Assets/Fonts/RubikMedium.ttf#RubikMedium" />
+                    </OnPlatform>
+                </Button.FontFamily>
+                <Button.BorderRadius>
+                    <!--<OnPlatform x:TypeArguments="x:Int32">
+                        <On Platform="iOS" Value="20" />
+                        <On Platform="Android" Value="20" />
+                        <On Platform="UWP, WinRT, WinPhone" Value="0" />
+                    </OnPlatform>-->
+                </Button.BorderRadius>
+            </Button>
+            
         </StackLayout>
     </ScrollView>
 

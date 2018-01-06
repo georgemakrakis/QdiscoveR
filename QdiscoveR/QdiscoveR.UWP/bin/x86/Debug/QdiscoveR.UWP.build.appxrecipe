@@ -424,8 +424,17 @@
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll">
       <PackagePath>QdiscoveR.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\Assets\Fonts\RubikRegular.ttf">
+      <PackagePath>Assets\Fonts\RubikRegular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\Assets\Fonts\RubikMedium.ttf">
+      <PackagePath>Assets\Fonts\RubikMedium.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\backround.jpg">
       <PackagePath>backround.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\backround2.jpg">
+      <PackagePath>backround2.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\pexels-photo-378570.jpeg">
       <PackagePath>pexels-photo-378570.jpeg</PackagePath>

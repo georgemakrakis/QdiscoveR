@@ -52,6 +52,8 @@
       <string>Icon-Small</string>
       <string>Icon-Small@2x</string>
       <string>Icon-Small@3x</string>
+      <string>Rubikegular.ttf</string>
+      <string>RubikMedium.ttf</string>
     </array>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen</string>

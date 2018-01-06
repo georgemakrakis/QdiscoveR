@@ -1,4 +1,6 @@
 WinMetadata\Windows.winmd
+Assets\Fonts\RubikMedium.ttf
+Assets\Fonts\RubikRegular.ttf
 Assets\LockScreenLogo.scale-100.png
 Assets\LockScreenLogo.scale-125.png
 Assets\LockScreenLogo.scale-150.png
@@ -31,6 +33,7 @@ Assets\Wide310x150Logo.scale-150.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 backround.jpg
+backround2.jpg
 QdiscoveR.UWP.xr.xml
 pexels-photo-378570.jpeg
 Properties\Default.rd.xml

@@ -3,20 +3,52 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="QdiscoveR.Info"
              Title="Info"
-             BackgroundImage="backround.jpg">
+             BackgroundImage="backround2.jpg">
     <ScrollView>
         <StackLayout VerticalOptions="StartAndExpand" Padding="5,0">
             <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
                 <ActivityIndicator x:Name="ActivityIndicator" Color="#03A9F4" IsRunning="True"/>
                 <Label FontSize="Medium" FontAttributes="Bold" x:Name="BName"
                    HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
-                   LineBreakMode="NoWrap"/>
+                   LineBreakMode="NoWrap">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="RubikMedium" />
+                            <On Platform="Android" Value="RubikMedium.ttf#RubikMedium" />
+                            <On Platform="UWP, WinRT, WinPhone" Value="Assets/Fonts/RubikMedium.ttf#RubikMedium" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
                 <Image x:Name="BPicture"/>
                 <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                    <Label Text="Location:"/>
-                    <Label x:Name="BLocation"/>
+                    <Label Text="Location:">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="iOS" Value="RubikMedium" />
+                                <On Platform="Android" Value="RubikMedium.ttf#RubikMedium" />
+                                <On Platform="UWP, WinRT, WinPhone" Value="Assets/Fonts/RubikMedium.ttf#RubikMedium" />
+                            </OnPlatform>
+                        </Label.FontFamily>
+                    </Label>
+                    <Label x:Name="BLocation">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="iOS" Value="RubikMedium" />
+                                <On Platform="Android" Value="RubikMedium.ttf#RubikMedium" />
+                                <On Platform="UWP, WinRT, WinPhone" Value="Assets/Fonts/RubikMedium.ttf#RubikMedium" />
+                            </OnPlatform>
+                        </Label.FontFamily>
+                    </Label>
                 </StackLayout>
-                <Label x:Name="BInfo" HorizontalTextAlignment="Center"/>
+                <Label x:Name="BInfo" HorizontalTextAlignment="Center">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="RubikMedium" />
+                            <On Platform="Android" Value="RubikMedium.ttf#RubikMedium" />
+                            <On Platform="UWP, WinRT, WinPhone" Value="Assets/Fonts/RubikMedium.ttf#RubikMedium" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
             </StackLayout>
             <StackLayout VerticalOptions="Center" Orientation="Vertical">
                 <BoxView VerticalOptions="Center"
@@ -26,7 +58,15 @@
                      Color="#5b5d68"></BoxView>
                 <Label Text="Nearby Buildings"
                    VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" />
+                   HorizontalOptions="CenterAndExpand">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="RubikMedium" />
+                            <On Platform="Android" Value="RubikMedium.ttf#RubikMedium" />
+                            <On Platform="UWP, WinRT, WinPhone" Value="Assets/Fonts/RubikMedium.ttf#RubikMedium" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
                 <BoxView VerticalOptions="Center"
                      HorizontalOptions="Center"
                      HeightRequest="1"

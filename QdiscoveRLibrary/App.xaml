@@ -5,6 +5,20 @@
     <Application.Resources>
 
         <!-- Application resource dictionary -->
+        <!--<ResourceDictionary>
+            <Style x:key="RubikFont" TargetType="Label">
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="RubikRegular" />
+                            <On Platform="Android" Value="RubikRegular.ttf#RubikRegular" />
+                            <On Platform="UWP, WinRT, WinPhone" Value="Assets/Fonts/RubikRegular.ttf#RubikRegular" />
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+
+            </Style>
+        </ResourceDictionary>-->
 
     </Application.Resources>
 </Application>

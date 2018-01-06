@@ -54,7 +54,7 @@ namespace QdiscoveR
                         BName.Text = building.Name;
                         BInfo.Text = building.Info;
                         BLocation.Text = building.Lat + ", " + building.Lng;
-			BPicture.Source = "http://www.icsd.aegean.gr/icsd/graphics/frontpage/DSC1.jpg";
+			            BPicture.Source = building.ImageURL;
                         // Popoulating the list of buildings nearby
                         SimilarBuildings.ItemsSource = SimilarBuildingsOc;
                     }

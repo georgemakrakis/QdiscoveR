@@ -7,5 +7,6 @@
         public double Lng { get; set; }
         public double Lat { get; set; }
         public string Info { get; set; }
+        public string ImageURL { get; set; }
     }
 }
