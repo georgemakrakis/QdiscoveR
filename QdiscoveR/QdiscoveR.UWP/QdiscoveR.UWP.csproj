@@ -112,6 +112,7 @@
   <ItemGroup>
     <Content Include="backround.jpg" />
     <Content Include="backround2.jpg" />
+    <Content Include="backround3.jpg" />
     <Content Include="pexels-photo-378570.jpeg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />

@@ -436,6 +436,9 @@
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\backround2.jpg">
       <PackagePath>backround2.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\backround3.jpg">
+      <PackagePath>backround3.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\pexels-photo-378570.jpeg">
       <PackagePath>pexels-photo-378570.jpeg</PackagePath>
     </AppxPackagedFile>

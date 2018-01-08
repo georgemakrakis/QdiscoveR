@@ -95,3 +95,4 @@ C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\res\drawable\refresh.png
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\res\drawable\backround2.jpg
+C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\res\drawable\backround3.jpg
