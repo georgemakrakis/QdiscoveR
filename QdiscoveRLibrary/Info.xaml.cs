@@ -153,12 +153,14 @@ namespace QdiscoveR
             HttpResponseMessage response = await client.GetAsync(client.BaseAddress+ "tables/Building/similarBuildings?longitude=" + userPos.Longitude+ "&latitude=" + userPos.Latitude);
             if (response.IsSuccessStatusCode)
             {
-                List<Building> model = null;
+                List<Building> model;
                 var resultJSON = await response.Content.ReadAsStringAsync();
                 model = JsonConvert.DeserializeObject<List<Building>>(resultJSON);
 
+               SimilarBuildingsOc.Clear();
+
                 foreach (var x in model)
-                {
+                {                    
                     SimilarBuildingsOc.Add(x);
                 }
             }
@@ -168,7 +170,8 @@ namespace QdiscoveR
         }
 
         public void OnRefresh(object sender, EventArgs e)
-        {            
+        {
+            
             FindSimilarBuildings(_buildingTable, buildingId, _userPos);
         }
 

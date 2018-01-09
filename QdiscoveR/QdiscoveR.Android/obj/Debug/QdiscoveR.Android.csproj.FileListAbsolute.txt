@@ -192,10 +192,10 @@ C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\res\dra
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\res\drawable\refresh.png
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\res\drawable\backround2.jpg
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\res\drawable\backround3.jpg
+C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\res\drawable\backround.jpg
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\R.cs.flag
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\uploadflags.txt
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\bin\Debug\QdiscoveR.dll.mdb
-C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\res\drawable\backround.jpg
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\bin\Debug\QdiscoveR.Android.dll.mdb
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb

@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-09T18:05:19.020</Modified>
+      <Modified>2018-01-09T18:46:33.241</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\QdiscoveR.UWP.exe">
       <PackagePath>entrypoint\QdiscoveR.UWP.exe</PackagePath>
-      <Modified>2018-01-09T18:05:18.200</Modified>
+      <Modified>2018-01-09T18:46:32.501</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\George Makrakis\.nuget\packages\Microsoft.Azure.Mobile.Client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
@@ -546,7 +546,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\George Makrakis\QdiscoveR\QdiscoveRLibrary\bin\Debug\QdiscoveR.dll">
       <PackagePath>QdiscoveR.dll</PackagePath>
-      <Modified>2018-01-09T18:05:17.147</Modified>
+      <Modified>2018-01-09T18:46:31.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\Assets\Fonts\RubikRegular.ttf">
       <PackagePath>Assets\Fonts\RubikRegular.ttf</PackagePath>
@@ -753,11 +753,11 @@
     <AppxPackagedFile Include="C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-09T15:16:33.701</Modified>
+      <Modified>2018-01-09T18:39:25.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\QdiscoveR.UWP.exe">
       <PackagePath>QdiscoveR.UWP.exe</PackagePath>
-      <Modified>2018-01-09T18:05:19.015</Modified>
+      <Modified>2018-01-09T18:46:33.235</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
