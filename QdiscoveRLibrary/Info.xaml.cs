@@ -9,6 +9,9 @@ using Xamarin.Forms.Xaml;
 using Plugin.Geolocator;
 using Plugin.Geolocator.Abstractions;
 using System;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using Newtonsoft.Json;
 
 namespace QdiscoveR
 {
@@ -129,17 +132,38 @@ namespace QdiscoveR
             //var lat = 37.796071;
             //var lng = 26.705048;
 
-            var temp = await buildingTable.Where(x => x.id != buildingId).ToListAsync();
-            foreach (var x in temp)
+            //var temp = await buildingTable.Where(x => x.id != buildingId).ToListAsync();
+            //foreach (var x in temp)
+            //{
+            //    if ((3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(Math.Sin((userPos.Latitude - Math.Abs(x.Lat))
+            //        * Math.PI / 180 / 2), 2) + Math.Cos(userPos.Latitude * Math.PI / 180) * Math.Cos(Math.Abs(x.Lat)
+            //        * Math.PI / 180) * Math.Pow(Math.Sin((userPos.Longitude - x.Lng) * Math.PI / 180 / 2), 2)))) < Dist))
+            //    {
+            //        SimilarBuildingsOc.Add(x);
+                    
+            //    }
+            //}
+
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("https://qdiscover.azurewebsites.net");
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/json"));
+            
+            HttpResponseMessage response = await client.GetAsync(client.BaseAddress+ "tables/Building/similarBuildings?longitude=" + userPos.Longitude+ "&latitude=" + userPos.Latitude);
+            if (response.IsSuccessStatusCode)
             {
-                if ((3956 * 2 * Math.Asin((Math.Sqrt(Math.Pow(Math.Sin((userPos.Latitude - Math.Abs(x.Lat))
-                    * Math.PI / 180 / 2), 2) + Math.Cos(userPos.Latitude * Math.PI / 180) * Math.Cos(Math.Abs(x.Lat)
-                    * Math.PI / 180) * Math.Pow(Math.Sin((userPos.Longitude - x.Lng) * Math.PI / 180 / 2), 2)))) < Dist))
+                List<Building> model = null;
+                var resultJSON = await response.Content.ReadAsStringAsync();
+                model = JsonConvert.DeserializeObject<List<Building>>(resultJSON);
+
+                foreach (var x in model)
                 {
                     SimilarBuildingsOc.Add(x);
-                    
                 }
             }
+           
+
             SimilarBuildings.HeightRequest = (40 * SimilarBuildingsOc.Count) + (10 * SimilarBuildingsOc.Count);
         }
 

@@ -1,2 +1,2 @@
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\QdiscoveR.UWP.csproj;x86
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveRLibrary\QdiscoveR.csproj;neutral
+C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\QdiscoveR.UWP.csproj;x86
+C:\Users\George Makrakis\QdiscoveR\QdiscoveRLibrary\QdiscoveR.csproj;neutral

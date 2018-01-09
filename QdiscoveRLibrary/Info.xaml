@@ -50,7 +50,7 @@
                     </Label.FontFamily>
                 </Label>
             </StackLayout>
-            <StackLayout VerticalOptions="Center" Orientation="Vertical">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Orientation="Vertical">
                 <BoxView VerticalOptions="Center"
                      HorizontalOptions="Center"
                      HeightRequest="1"
@@ -75,7 +75,7 @@
                 <ListView x:Name="SimilarBuildings" IsPullToRefreshEnabled="true" Refreshing="OnRefresh">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <TextCell Text="{Binding Name}" />
+                            <TextCell  TextColor="Azure" Text="{Binding Name}" />
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
