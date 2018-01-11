@@ -3,10 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:QdiscoveR"
              x:Class="QdiscoveR.MainPage"
-             BackgroundImage="backround.jpg">
+              >
     <!-- Better have some ScrollViews for more responsive design. Also try some Center, CenterAndExpand and fill options-->
+    <AbsoluteLayout VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
 
-    <ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+        <Image AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+               Source="backround.jpg" Aspect="AspectFill"/>
+        <ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="Center" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1, 1">
         <StackLayout x:Name="StackLayout1" Orientation="Vertical">
             <Label Text="Explore buildings around you" 
            VerticalOptions="Center" 
@@ -20,7 +24,7 @@
                 </Label.FontFamily>
                 
             </Label>
-            <Image x:Name="Logo" Source="QdiscoveR2.png"></Image>
+            <Image x:Name="Logo" Source="QdiscoveR2.png"/>
             <Button Text="Scan now!" BackgroundColor="#90DDF4" TextColor="Azure" Clicked="OnButtonClicked">
                 <Button.FontFamily>
                     <OnPlatform x:TypeArguments="x:String">
@@ -40,5 +44,5 @@
             
         </StackLayout>
     </ScrollView>
-
+</AbsoluteLayout>
 </ContentPage>

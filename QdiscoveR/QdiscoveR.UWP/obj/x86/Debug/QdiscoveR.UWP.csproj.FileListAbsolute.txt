@@ -8,11 +8,7 @@ C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\AppxManifest.xml
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Core\QdiscoveR.UWP.exe
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\QdiscoveR.UWP.build.appxrecipe
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Microsoft.WindowsAzure.Mobile.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Microsoft.CSharp.dll
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Core.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Net.dll
@@ -45,7 +41,6 @@ C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Threading.Tasks.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Threading.Timer.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Microsoft.Win32.Primitives.dll
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Console.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Diagnostics.Debug.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.IO.FileSystem.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Net.Primitives.dll
@@ -98,7 +93,6 @@ C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Reflection.Emit.Lightweight.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Reflection.Metadata.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Reflection.TypeExtensions.dll
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Runtime.Numerics.dll
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\System.Runtime.Serialization.Json.dll
@@ -163,7 +157,6 @@ C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Collections.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.IO.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Runtime.InteropServices.SR.resw
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Console.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Diagnostics.Debug.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.IO.FileSystem.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Net.Primitives.SR.resw
@@ -201,7 +194,6 @@ C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Private.ServiceModel.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Reflection.Metadata.SR.resw
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Runtime.InteropServices.RuntimeInformation.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Runtime.Numerics.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
@@ -222,7 +214,6 @@ C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Xml.XDocument.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Xml.XmlDocument.SR.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\Microsoft.WindowsAzure.Mobile\en-US\Microsoft.WindowsAzure.MobileServices.Resources.resw
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\QdiscoveR.UWP.csproj.GenerateResource.Cache
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\priconfig.xml
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\priconfig.xml.intermediate
@@ -235,7 +226,6 @@ C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\Qdiscov
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\qualifiers.txt
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\Microsoft.WindowsAzure.Mobile.Ext.pri.xml
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\Plugin.Geolocator.pri.xml
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\ZXingNetMobile.pri.xml
@@ -477,3 +467,6 @@ C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\Xamarin
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\ZXingNetMobile.pri.xml
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\ZXing.Net.Mobile.Forms.WindowsUniversal.pri.xml
 C:\Users\George Makrakis\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\bin\x86\Debug\Microsoft.Azure.Mobile.Client.dll
+C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\Microsoft.Azure.Mobile.Client\en-US\Microsoft.WindowsAzure.MobileServices.Resources.resw
+C:\Users\georg\documents\visual studio 2015\Projects\QdiscoveR\QdiscoveR\QdiscoveR.UWP\obj\x86\Debug\Microsoft.Azure.Mobile.Client.pri.xml

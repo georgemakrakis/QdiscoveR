@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using QdiscoveR;
 
 namespace QdiscoveR.iOS
 {
@@ -24,6 +25,7 @@ namespace QdiscoveR.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
 
             return base.FinishedLaunching(app, options);
         }

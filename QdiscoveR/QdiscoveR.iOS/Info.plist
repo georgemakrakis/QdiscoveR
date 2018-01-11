@@ -23,9 +23,15 @@
     
     <!--Location permissions-->
     <key>NSLocationAlwaysUsageDescription</key>
-    <string>To determine location</string>
+    <string>QdiscoveR needs access to your location</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>To determine location</string>
+    <string>QdiscoveR needs access to your location</string>
+    
+    <!-- Camera Permissions-->
+    <key>NSCameraUsageDescription</key>
+    <string>Qdiscover needs access to the camera to scan QR Codes.</string>
+    <!--<key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to photos.</string>-->
     
     <key>MinimumOSVersion</key>
     <string>8.0</string>
